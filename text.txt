@@ -1,0 +1,27 @@
+http://127.0.0.1:8000/admin/
+
+http://127.0.0.1:8000/api/auth/signup/
+{
+  "username": " ",
+  "password": " ",
+  "role": "Admin"
+}
+
+
+http://localhost:8000/api/auth/login/
+{
+  "username": " ",
+  "password": " "
+}
+
+http://127.0.0.1:8000/api/auth/logout/
+d0178fc4429e82dc6e3bcba7f82709c5e8effafc
+
+KELUM
+
+http://127.0.0.1:8000/api/auth/students/
+
+SHASHINI
+
+http://127.0.0.1:8000/api/auth/marks/
+
