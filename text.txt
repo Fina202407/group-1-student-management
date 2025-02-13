@@ -25,3 +25,61 @@ SHASHINI
 
 http://127.0.0.1:8000/api/auth/marks/
 
+1. Authentication & User Management (HIRUSHA 202407)
+
+· User authentication with Django's default user model (Admin, Staff, and Student roles)
+. JWT-based authentication for secure accessRole-based access control (RBAC)
+
+API Endpoints:
+
+POST /api/auth/signup/+-
+POST /api/auth/login/+
+POST /api/auth/logout/+-
+
+React Components: Login, Signup, Role-Based authentication
+
+
+2. Student Management (KALUM)
+
+. View student details including personal information, marks, and admission details
+· Assign students to specific departments or classes
+
+API Endpoints:
+
+GET /api/students/+-
+POST /api/students/+-
+GET /api/students/{id}/+-
+PUT /api/students/{id}/
+DELETE /api/students/{id}/
+
+React Components: Student List, Student Details, Student Form
+
+3. Marks Management (SHASHINI)
+
+· Add, update, and delete student marks
+· Calculate total and percentage for each student
+· Generate performance reports
+
+API Endpoints:
+
+GET /api/marks/+-
+POST /api/marks/+
+PUT /api/marks/{id}/
+DELETE /api/marks/{id}/
+
+React Components: Marks Entry, Student mark list,mark edit,mark delete
+
+4. Admission Management (NAVODI)
+
+. Record new admissions with student details
+· Track admission status (pending, approved, rejected)
+· Maintain admission history
+
+API Endpoints:
+
+GET /api/admissions/+-
+POST /api/admissions/+-
+PUT /api/admissions/{id}/
+DELETE /api/admissions/{id}/
+
+React Components: Admission List, Admission add, Admission Edit/Delete
